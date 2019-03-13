@@ -68,13 +68,7 @@ public class AnimationController : MonoBehaviour
 
 			GetComponent<Animator>().Play("animation_3_tampa");
 
-		}
-		else if (stateInfo.IsName("animation_2_tampa"))
-		{
-			mObj_tampa.SetActive(false);
-			mObj_tampa.GetComponent<Renderer>().enabled = false;
-			GetComponent<Animator>().Play("animation_3_tampa");
-		}
+		}		
 		else if (stateInfo.IsName("animation_3_tampa"))
 		{
 			mObj_tampa_base.SetActive(false);
